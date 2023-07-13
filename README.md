@@ -15,9 +15,7 @@ const stripe = await loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx')
 
 ### Disabling advanced fraud detection signals
 
-If you would like to
-[disable advanced fraud detection](https://stripe.com/docs/disputes/prevention/advanced-fraud-detection#disabling-advanced-fraud-detection)
-altogether, you need to manually load the script:
+If you would like to [disable advanced fraud detection](https://stripe.com/docs/disputes/prevention/advanced-fraud-detection#disabling-advanced-fraud-detection) altogether, you need to manually load the script:
 
 ```ts
 import { loadScript } from '@fixers/stripe-js'
