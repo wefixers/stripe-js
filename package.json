@@ -1,7 +1,7 @@
 {
   "name": "@fixers/stripe-js",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Naked loading wrapper for Stripe.js ",
   "author": "Luca <git@lucacicada.me>",
   "license": "MIT",
