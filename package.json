@@ -1,0 +1,45 @@
+{
+  "name": "@fixers/stripe-js",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Naked loading wrapper for Stripe.js ",
+  "author": "Luca <git@lucacicada.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wefixers/stripe-js.git"
+  },
+  "keywords": [
+    "stripe",
+    "stripe-js"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "unbuild",
+    "build": "unbuild",
+    "release": "changelogen --release",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.54.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.4",
+    "changelogen": "^0.5.3",
+    "eslint": "^8.42.0",
+    "typescript": "^5.1.6",
+    "unbuild": "^1.2.1"
+  }
+}
