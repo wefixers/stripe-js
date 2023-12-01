@@ -30,16 +30,17 @@
     "build": "unbuild",
     "release": "changelogen --release",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.54.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.4",
-    "changelogen": "^0.5.3",
-    "eslint": "^8.42.0",
-    "typescript": "^5.1.6",
-    "unbuild": "^1.2.1"
+    "@antfu/eslint-config": "^2.1.2",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2",
+    "unbuild": "^2.0.0"
   }
 }
