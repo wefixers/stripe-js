@@ -34,7 +34,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@stripe/stripe-js": "^1.54.1"
+    "@stripe/stripe-js": "^2.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.1.2",
